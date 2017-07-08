@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*全局*/
+body {
+	margin:0;
+	padding:0;
+	font-size:12px;
+	color:#333;
+	font-family:"宋体",Arial, Helvetica, sans-serif;
+	background:#eff1f0 url(../images/login_x.jpg) repeat-x top;
+	}
+a:link,a:visited {
+	font-size:12px;
+	color:#FFF;
+	text-decoration:underline;
+	}
+a:hover {
+	color:#FF0000;
+	text-decoration:underline;
+	}
+#loginbefore {
+	background:url(../images/loginbefore.jpg) no-repeat top center;
+	height:610px;
+	}
+.login_before {
+	padding:5px 5px;
+	width:273px;
+	height:198px;
+	border:none;
+	overflow-y:hidden;
+    background-color:white;
+	line-height:32px;
+	font-size:14px;
+	color:black;
+	font-family:"等线";
+	text-align:left;
+	}
+
+#login {
+	background:url(../images/login.jpg) no-repeat top center;
+	height:610px;
+	}
+.login_input {
+	padding:0 0 0 90px;
+	width:193px;
+	height:41px;
+	border:none;
+	}
+.user {
+	background:url(../images/login_input_user.jpg) no-repeat;
+	}
+.password {
+	background:url(../images/login_input_password.jpg) no-repeat;
+	}
+.login_button {
+	background:url(../images/login_button.jpg) no-repeat;
+	width:117px;
+	height:34px;
+	border:none;
+	cursor:pointer;
+	vertical-align:middle;
+	}
+.tologin_button {
+	background:url(../images/ls_bs.png) no-repeat;
+	width:135px;
+	height:34px;
+	border:none;
+	cursor:pointer;
+	vertical-align:middle;
+	}
+
+.check_button {
+	background:url(../images/ls_fbs.png) no-repeat;
+	width:135px;
+	height:34px;
+	border:none;
+	cursor:pointer;
+	vertical-align:middle;
+	}

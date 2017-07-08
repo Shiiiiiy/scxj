@@ -1,0 +1,4 @@
+@CHARSET "UTF-8";
+.hdpt_line{
+	background: url(${ctxStatic}/lawyer/images/hdpt_line.jpg) repeat-x center;
+}

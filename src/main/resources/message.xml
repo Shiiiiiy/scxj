@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app>   
+		<message name="new" desc="新建模板" content="lawyerName律师已提交预约“searchCode”，请及时受理。"/>
+		<message name="deal" desc="处理模板" content="您于applyDate预约的“searchCode”已收到回复，请尽快在网上确认，或可直接短信确认，接待时间为receptDate，承诺按时赴约请回复：YnLawyerapplyId，不能按时赴约请回复：NnLawyerapplyId。"/>
+		<message name="confirmapply" desc="确认赴约模板" content="您于applyDate提交的“searchCode”预约已确认，请于receptionDate按时至receptionPlace赴约。"/>
+		<message name="cancelconfirmapply" desc="取消赴约模板" content="lawyerName律师提交的“searchCode”预约因不能按时赴约已取消，请及时处理。"/>
+	    <message name="cancelapply" desc="取消模板" content="lawyerName律师提交的“searchCode”预约已被该律师取消，请做出相应处理。"/>
+		<message name="newsearch" desc="新建流程模板" content="lawyerName律师已提交“searchCode”诉讼流程查询预约，请及时审核。"/>
+		<message name="dealstatusdatafull" desc="材料补齐模板" content="lawyerName律师的“searchCode”材料已补齐，请及时审核。"/>
+		<message name="dealstatuscancel" desc="撤销委托模板" content="您的“searchCode”现已终止查询该案的诉讼流程。"/>
+
+</app>
+
+

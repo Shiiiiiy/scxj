@@ -1,0 +1,45 @@
+body {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#nav{
+	margin:0; padding:0; width:1002px; margin-left:auto; margin-right:auto
+}
+#nav .tree{
+	margin:0; padding:0; width:1002px;
+}
+.clear{clear:both}
+.tree .logo{width:1002px; height:84px; background:url(yytree1a.jpg) no-repeat}
+.tree .logo img{ float:right; margin-right:10px}
+.tree .first{ height:43px; background:url(yytree2.jpg) no-repeat; width:1002px}
+.tree .first img{ margin-left:373px; height:43px; width:274px}
+.tree .second{ background:url(yytree2c.gif) no-repeat; width:1002px; height:80px}
+.tree .second ul{ height:30px; padding-left:120px; padding-top:30px; width:100%}
+.tree .second ul li{ float:left; margin-right:198px; height:30px;}
+.tree .second ul li.tjy{ float:left; height:30px; margin-left:10px;}
+.tree .third{ width:1002px; height:259px; background:url(yytree3c.jpg) no-repeat}
+.tree .third .fyLeft{ padding-left:60px; padding-top:27px; float:left} 
+.tree .third .fyLeft img{ float:left; margin-right:7px}
+.tree .third .fyMidd{padding-left:45px; padding-top:27px; float:left; overflow:hidden}
+.tree .third .fyMidd img{ float:left; margin-right:7px}
+.tree .third .fyRight{padding-left:36px; padding-top:27px; overflow:hidden; float:left;}
+.tree .third .fyRight img{ float:left; margin-right:7px}
+#nav .tail{ width:100%; height:70px; background-color:#1f5ca2; font-size:12px; color:#FFFFFF; text-align:center; padding-top:26px; line-height:22px}
+
+/************************************ÔÄ¶ÁÐëÖª********************************************/
+#nav .intro{ margin:0; padding:0; width:1002px;}
+#nav .intro{ background:#C0C0C0; padding-top:3px}
+#nav .intro .cont{ width:788px; background:url(yytree7.gif) repeat-x ; margin-left:auto; margin-right:auto; padding-bottom:50px}
+#nav .intro .cont img{ margin-bottom:6px}
+#nav .intro .cont ul{}
+#nav .intro .cont ul li{ font-size:12px; line-height:25px; color:#1f1f1f; width:89%; margin-left:62px;}
+.text1{ font-size:12px; color:#7d7d7d; line-height:25px}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*组织树头部*/
+.tree_head {
+	position:relative;
+	width:1002px;
+	height:80px;
+	background:url(../images/tree_head.jpg) left top no-repeat;
+	margin:0 auto;
+}
+.tree_head ul {
+	position:absolute;
+	right:0;
+	top:1px;
+}
+.tree_head li {
+	float:left;
+	width:93px;
+	height:24px;
+	margin-right:10px;
+	line-height:24px;
+	text-align:center;
+	background:url(../images/07.gif) left top no-repeat;
+}
+.tree_head a {
+	color:#07c307;
+}
+.tree_head a:hover {
+	color:#05e605;
+}
+.tree_head_title {
+	position:absolute;
+	left:402px;
+	top:30px;
+}
+
+/*组织树人民检察院一级分支*/
+.tree_projects {
+	width:1002px;
+	height:40px;
+	padding:28px 0 32px 0;
+	background:url(/static/lawyer/images/jcy/tree_projects.jpg) left top no-repeat;
+	margin:0 auto;
+}
+.tree_projects01 {
+	float:left;
+	margin-left:120px;
+	margin-right:199px;
+}
+.tree_projects02 {
+	float:left;
+	margin-right:205px;
+}
+.tree_projects03 {
+	float:left;
+}
+
+/*组织树人民检察院二级分支*/
+.tree_lists {
+	width:1002px;
+	height:240px;
+	background:url(/static/lawyer/images/jcy/tree_bottombg.jpg) left bottom no-repeat;
+	margin:0 auto;
+}
+.tree_lists li {
+	float:left;
+	margin-right:7px;
+	margin-top:5px;
+}
+.tree_lists_left {
+	margin-left:60px;
+	float:left;
+	margin-right:37px;
+	margin-top:5px;
+}
+.tree_lists_center {
+	float:left;
+	margin-right:44px;
+	margin-top:5px;
+}
+
+
+/*组织树底部*/
+.tree_footer {
+	width:1002px;
+	height:95px;
+	background:#205ca2;
+	margin:0 auto;
+	color:#fff;
+	line-height:70px;
+	text-align:center;
+}

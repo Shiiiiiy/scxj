@@ -1,0 +1,200 @@
+@charset "utf-8";
+/*全局*/
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+	overflow:hidden;
+	font-size:12px;
+	color:#333;
+	font-family:"Microsoft YaHei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+}
+a:link, a:visited {
+	font-size:12px;
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+	color:#F00;
+	text-decoration:underline;
+}
+ul,li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+
+/*首页框架布局*/
+#banner {         /*定义横幅*/
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0;
+	right:0px;
+	height:136px;
+	width:100%;
+	z-index:4;
+	}
+#menu {         /*定义菜单*/
+	position:absolute;
+	top:136px;
+	bottom:25px;
+	left:0px;
+	width:0px;
+	z-index:3;
+	height:100%;
+}
+#ctrl {         /*定义控制区*/
+	position:absolute;
+	margin:0px;
+	top:136px;
+	bottom:25px;
+	left:180px;
+	width:0px;
+	z-index:2;
+	cursor:pointer;
+	overflow:hidden;
+	background:#e5e9f4;
+}
+#content {         /*定义内容*/
+	position:absolute;
+	top:136px;
+	bottom:25px;
+	left:0px;
+	right:0px;
+	text-align:center;
+	z-index:1;
+	height:100%;
+}
+#footer {
+	position:absolute;
+	bottom:0;
+	color:#333333;
+	width:100%;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	background:#e0e1e5;
+	border-top:1px solid #afafaf;
+	font-family:"Microsoft YaHei","宋体",Arial, Helvetica, sans-serif;
+}
+#footer span {
+	font-family:Arial, Helvetica, sans-serif;
+}
+.ctrl_hidden a {
+	display:block;
+	cursor:hand;
+	width:8px;
+	height:100%;
+	text-indent:-999px;
+	background:url(../images/arrow_left.jpg) left center no-repeat;
+}
+.ctrl_visibility a {
+	display:block;
+	cursor:hand;
+	width:8px;
+	height:100%;
+	text-indent:-999px;
+	background:url(../images/arrow_right.jpg) left center no-repeat;
+}
+
+/*菜单部分*/
+.hd-main{height:136px;background:url(../images/header_bg.jpg) repeat-x;border-bottom:0;box-shadow:0 0 8px #333;}
+
+.f-icon{background-image:url('../images/frame-icon.png');background-repeat:no-repeat}
+.t-icon{background-image:url('../images/frame-phone.png');background-repeat:no-repeat}
+.hd-main .has-pulldown{cursor:pointer;position:relative;*z-index:10000}
+.hd-main .pulldown{position:absolute;cursor:default;display:none;top:40px;}
+.hd-main .pulldown .arrow{*margin-bottom:-1px;_margin-bottom:0;height:0;width:0;font-size:0;line-height:0;border-width:7px;border-style:solid;border-color:transparent transparent #afafaf transparent;_filter:chroma(color=tomato);_border-color:tomato tomato #afafaf tomato;position:relative;display:block;left:20px;z-index:2;}
+.hd-main .pulldown .content{background:#F6F6F9;color:#333;text-align:left;border-radius:3px;border:rgb(175,175,175) 1px solid;border-width:0px 1px 1px 1px;box-shadow:0 2px 4px rgba(0,0,0,.2);position:relative;z-index:10}
+.hd-main .info .pulldown .content{border-width:1px 1px 1px 1px;}
+
+.hd-main .info{height:42px;float:right; width:50%;text-align:left;white-space:nowrap; z-index:-1;}
+.hd-main .info ul { margin:10px 10px 0 10px;}
+.hd-main .info a{color:#333333}
+.hd-main .info a:hover{color:#FF0000;text-decoration:underline}
+.hd-main .info .info-i{padding:0 10px;margin:10px 0;display:inline-block;*display:inline;*zoom:1;height:16px;border-right:#393939 1px solid;color:#333333;font:12px/16px "SimSun"}
+.hd-main .info .has-pulldown{padding-right:28px}
+.hd-main .info .has-pulldown .pull-arrow{position:absolute;display:block;right:10px;top:1px;height:12px;width:12px;font-size:0;background-position:-89px -45px}
+.hd-main .info .no-separate{border:none}
+.hd-main .info .user-name{position:relative;padding-left:24px;}
+.hd-main .info .user-name .name{display:inline-block;display:inline\0;white-space:nowrap;max-width:75px;overflow:hidden;text-overflow:ellipsis;vertical-align:bottom}
+.hd-main .info .user-name .identity{position:absolute;top:0;left:0;height:16px;width:16px;background-position:0px 0px}
+.hd-main .info .user-name .is-vip{background-position:-89px -68px}
+.hd-main .info .user-info,.hd-main .info .more-info{top:9px;left:auto;right:-24px;width:116px}
+.hd-main .info .notice-nu{display:inline-block;padding-left:4px;background-position:-86px -109px;height:14px;-webkit-text-size-adjust:none;font-size:10px;font-style:normal}
+.hd-main .info .notice-nu .f-icon{display:inline-block;padding-right:4px;background-position:right -109px;color:#333333}
+.hd-main .info .user-info .arrow{left:70px;*left:-32px}
+.hd-main .info .user-info .content,.hd-main .info .more-info .content{padding:5px 0;height:110px}
+.hd-main .info .more{padding:0;display:inline;line-height:inherit;background:none}
+.hd-main .info .more-info .content{height:110px}
+.hd-main .info .user-info .content a,.hd-main .info .more-info .content a{display:block;padding-left:33px;height:19px;line-height:19px;color:#333333}
+.hd-main .info .user-info .content a:hover,.hd-main .info .more-info .content a:hover{color:#333333;text-decoration:none;background:#e0e1e5}
+.hd-main .info .user-info .li,.hd-main .info .more-info .li{display:block;padding:2px 0;height:30px}
+.hd-main .info .user-info .separate-li,.hd-main .info .more-info .separate-li{display:block;margin:1px 11px;border-top:#EBEBEC 1px solid;border-bottom:#FFF 1px solid}
+.hd-main .info .more-info{right:0}
+.hd-main .info .more-info .arrow{left:94px;*left:-8px}
+
+/*当前所在位置*/
+.logo {
+	width:50%;
+	height:61px;
+	float:left;
+	background:url(../images/logo.jpg) no-repeat left top;
+	}
+.nav {
+ list-style:none;
+ padding:0px;
+ float:left;
+ width:100%;
+ height:44px;
+ clear:both;
+ background:#4d7cb2 url(../images/nav_bg.jpg) no-repeat bottom right;
+}
+.nav img {
+ border:none;
+}
+.nav li {
+ float:left;
+ vertical-align:middle;
+}
+.navmenu{
+	color: #FFF;
+	font-size:14px;
+	font-weight:bold;
+	font-family:'Microsoft YaHei', '微软雅黑', '宋体', Arial, Helvetica, sans-serif;
+}
+.gztmenu{
+	color: black;
+	font-size:13px;
+	font-family:'Microsoft YaHei', '微软雅黑', '宋体', Arial, Helvetica, sans-serif;
+}
+.nav li a:link,.nav li a:visited {
+ display:block;
+ width:150px;
+ height:44px;
+ line-height:44px;
+ text-align:center;
+ font-size:14px;
+ font-weight:bold;
+ color:#FFF;
+ text-decoration:none;
+}
+.nav li.hover a:link,.nav li.hover a:visited {
+  background: url(../images/nav_hover.jpg) repeat-x bottom;
+}
+
+#position {
+	background:url(../images/position_bg.jpg) repeat-x;
+	border-bottom:1px solid #d1d1d1;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+	padding:0 29px;
+	width:100%;
+	clear:both;
+	}
+	
+		
+/*左侧菜单*/
